@@ -1,0 +1,19 @@
+{
+  "flag": true,
+  "code": 20000,
+  "message": "查询成功",
+  "data": {
+    "id": "1",
+    "name": "测试活动",
+    "summary": "喝茶看电影，不亦乐乎",
+    "detail": "喝茶看电影，不亦乐乎",
+    "sponsor": "黑马程序员",
+    "image": null,
+    "starttime": "2017-12-14T07:39:32.000+0000",
+    "endtime": "2017-12-21T07:39:36.000+0000",
+    "address": null,
+    "enrolltime": null,
+    "state": "1",
+    "city": "1"
+  }
+}

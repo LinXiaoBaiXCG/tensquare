@@ -1,6 +1,6 @@
 package entity;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+
 import lombok.Data;
 
 import java.util.List;
@@ -8,11 +8,9 @@ import java.util.List;
 @Data
 public class PageResult<T> {
     // 总页数
-    @JsonProperty("total")
-    private Long totalPage;
+    private Long total;
     // 查询的数据
-    @JsonProperty("rows")
-    private List<T> data;
+    private List<T> rows;
 
     /**
      * 控构造器
@@ -20,8 +18,8 @@ public class PageResult<T> {
     public PageResult() {
     }
 
-    public PageResult(Long totalPage, List<T> data) {
-        this.totalPage = totalPage;
-        this.data = data;
+    public PageResult(Long total, List<T> rows) {
+        this.total = total;
+        this.rows = rows;
     }
 }
